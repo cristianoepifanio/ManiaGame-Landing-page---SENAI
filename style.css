@@ -37,6 +37,7 @@ nav li{
     background-color: #fff;
     border-radius: 30px;
     border: 2px solid #fff;
+    transition: ease-in-out 500ms;
 }
 .button:hover{
     color: #fff;
