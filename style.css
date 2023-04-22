@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* 
+--------------------------------------------------
+              MENU configuration
+--------------------------------------------------
+*/
+header{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    color: white;
+    padding: 1rem 2rem;
+    /* background-color: #5252523b; */
+}
+nav > a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 2rem;
+}
+.button{
+    color: purple;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 2px solid #fff;
+}
+.button:hover{
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #ffffff00;
+}
+.loginForm > p{
+    font-size: 12px;
+}
+.loginForm > p > a{
+    color: red;
+}
+/* 
+--------------------------------------------------
+              LOGIN configuration
+--------------------------------------------------
+*/
+.login{
+    display: flex;
+    background-image: url(images/photoMain.jpg);
+    background-size: cover;
+    height: 540px;
+    align-items: center;
+    
+}
+.loginForm{
+    margin: 10%;
+    margin: 30rem auto;
+    text-align: center;
+    display: block;
+    background-color: #52525265;
+    padding: 5rem;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #fff;
+}
+input{
+    padding: 0.5rem 1rem;
+}
+button{
+    padding: 0.6rem 2rem;
+    border-radius: 30px;
+    margin:9px;
+}
+/* 
+--------------------------------------------------
+              ABOUT configuration
+--------------------------------------------------
+*/
+.about{
+    width: 80vw;
+    /* border: 2px solid black; */
+    margin: 3rem auto;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.photo1{
+    background-image: url(images/pexels-ron-lach-7848986.jpg);
+    -webkit-box-shadow: -17px 14px 0px 1px #D9D9D9; 
+    box-shadow: -17px 14px 0px 1px #D9D9D9;
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 25rem;
+    /* border: 2px solid black; */
+}
+.title1 {
+    float: right;
+    background-color: #D9D9D9;
+    width: 100%;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+.whatAbout1{
+    width: 55%;
+    float: right;
+
+}
+.photo2{
+    background-image: url(images/Photo2.jpg);
+    -webkit-box-shadow: 18px 18px 0px -1px #D9D9D9; 
+    box-shadow: 18px 18px 0px -1px #D9D9D9;
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 25rem;
+    /* border: 2px solid black; */
+}
+.title2 {
+    float: left;
+    background-color: #D9D9D9;
+    width: 100%;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+.whatAbout2{
+    width: 55%;
+    float: left;
+
+}
