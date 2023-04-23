@@ -9,14 +9,16 @@
 </head>
 <body>
    <header>
-    <div class="logo">
-        <h2>Mania Game</h2>
-    </div>
+    <a href="index.html">
+        <div class="logo">
+            <h2>Mania Game</h2>
+        </div>
+    </a>
     <div>
         <nav>
             <li>loja</li>
             <li>sobre nós</li>
-            <li>carrinho</li>
+            <li onclick="abrirCarrino()">carrinho</li>
             <a href="#">
                 <div class="button">
                     <h2>Register</h2>
@@ -25,6 +27,17 @@
         </nav>
     </div>
    </header>
+<div class="carrinho" id="carrinho">
+<h3>Meu carrinho</h3> <hr>
+    <div class="listCompras"></div>
+<button>Comprar</button>
+</div>
+<div class="gameList2" id="gameList">
+    <h2>Lista de gamesList</h2>
+    
+</div>
+
+
 
 <!-- <footer></footer> -->
     <script src="main.js"></script>
