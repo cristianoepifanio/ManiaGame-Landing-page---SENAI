@@ -40,22 +40,29 @@ abrirLoja = () => {
         <h2>${val.name}</h2>
         <img src=" ${val.img} " alt="${val.name}">
         <p>Preço: <b>R$ ${val.preco}</b></p>
-        <a key="${val.id} href=""><button>Adicionar no carrinho</button></a>
+        <a key="${val.id}" href="#"><button>Adicionar no carrinho</button></a>
         </div>
         `;
     })
 } 
 abrirLoja();
 
-// abrirCarrinho = () => {
-//     document.getElementById('carrinho'){
-        
-//     }
-// }
+abrirCarrinho = () => {
+    document.getElementById('openCarrinho').style.visibility = "visible";
+}
 
 atualizarCarrinho = () => {
-    console.log(games);
+   var containerCarrinho = document.getElementById('carrinho');
+   containerCarrinho.innerHTML = "";
+   games.map((val)=>{
+    if (val.quant>0){
+        containerCarrinho.innerHTML += `   
+        <p>${val.name} : ${val.quant}<br>preço: R$ ${(val.quant)*(val.preco)}</p>
+        `
+    }
+   });
 }
+
 var links = document.getElementsByTagName('a');
 for(var i=0;i<links.length;i++){
     links[i].addEventListener('click',function(){
