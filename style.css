@@ -3,6 +3,9 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* 
 --------------------------------------------------
@@ -224,7 +227,7 @@ button{
 .gameList2{
     margin: 90px 40px;
     justify-content: center;
-    display: inline-block;
+    /* display:  ; */
     align-items: center;
     width: 70vw;
 }
@@ -237,9 +240,10 @@ button{
     border-radius: 20px;
     padding: 30px;
     background-color: #ccc;
+    width: 30vw;
 }
 .game-single img {
-    max-width: 800px;
+    max-width: 90%;
     margin: 1rem 0;
     border-radius: 20px;
 }
