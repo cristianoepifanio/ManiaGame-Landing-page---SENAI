@@ -1,0 +1,65 @@
+@media screen and (max-width:630px) {
+    /* ------------------------------------------------
+           Game List config 1ª página
+---------------------------------------------------*/
+    .game{
+        flex-direction:column;
+        padding: 0.5rem;
+        justify-content: flex-start;
+    }
+    #gm2,#gm4{
+        flex-direction: column;
+    }
+    .gmTitle{
+        width: 100%;
+        margin: 5px auto;
+        text-align: center;
+        
+    }
+}
+@media screen and (max-width:700px){
+    /* 
+--------------------------------------------------
+              MENU configuration
+--------------------------------------------------
+*/
+    header{
+        gap: 15px;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:810px) {
+    footer{
+        padding: 1rem;
+    }
+    .links{
+        flex-direction: column;
+    }
+    .link{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
+@media screen and (max-width:930px) {
+    /* 
+--------------------------------------------------
+              ABOUT configuration
+--------------------------------------------------
+*/
+    .about{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .photo1,.photo2{
+        width: 100%;
+    }
+    .photo2{
+        background-position-y:25%;
+    }
+    .whatAbout1,.whatAbout2{
+        width: 100%;
+    }
+    
+}
