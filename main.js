@@ -72,3 +72,16 @@ for(var i=0;i<links.length;i++){
         return false;
     })
 } 
+
+openMenu = () => {
+    document.getElementsByClassName('openMenu').style() = `opacity: 1;
+    width: 90vw;
+    color: #000;
+    background-color: #444;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    left: 20px;
+    padding: 1rem;
+`
+}

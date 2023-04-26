@@ -26,7 +26,7 @@ header{
     color: white;
     padding: 1rem 2rem;
     background-color: #000;
-   top: 0;
+    top: 0;
 }
 header a{
     text-decoration: none;
@@ -54,6 +54,26 @@ nav li{
     color: #fff;
     border: 2px solid #fff;
     background-color: #000;
+}
+.menu-mobile{
+    background-image: url(images/menu.png);
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+.openMenu{
+    opacity: 0;
+    width: 90vw;
+    color: #000;
+    background-color: #444;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    left: 20px;
+    padding: 1rem;
+}
+.menu-mobile:hover .openMenu{ 
+    opacity: 1;
 }
 /* 
 --------------------------------------------------
