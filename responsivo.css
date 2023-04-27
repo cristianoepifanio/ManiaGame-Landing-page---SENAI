@@ -45,7 +45,12 @@
         .menu-desktop{
             display: none;
         }
-        
+        .game{
+            gap: 0.5rem;
+        }
+        footer{
+            padding: 0.5rem 1rem;
+        }
     }
 @media screen and (max-width:810px) {
     footer{
